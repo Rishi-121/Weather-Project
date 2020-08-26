@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        font-family: "montserrat", Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      body {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container jumbotron" style="margin: 8%">
+      <h1>Weather App</h1>
+      <hr />
+      <form action="/" class="form-group" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="cityname">City Name:</label>
+            <input
+              type="text"
+              id="cityname"
+              class="form-control"
+              name="cityname"
+            />
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">
+          Check Today's Weather
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
