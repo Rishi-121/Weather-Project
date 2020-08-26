@@ -2,7 +2,7 @@
 
 ## Description:-
 
-This is a simple weather application where a user can put his/her city name and get back city's corresponding temperature, weather description and an icon denoting the weather condition. 
+This is a simple weather application where a user can put his/her city name and get back the city's corresponding temperature, weather description, and an icon denoting the weather condition. 
 
 ## Technology Stack:-
 
